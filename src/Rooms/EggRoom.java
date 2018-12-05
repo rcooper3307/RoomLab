@@ -16,7 +16,7 @@ public class EggRoom extends Room
      */
     public void enterRoom(Person x)
     {
-        System.out.println("You enter a plain old room");
+        System.out.println("There is an egg in this room. You pick it up, and with it, you move along.");
         occupant = x;
         x.setxLoc(this.xLoc);
         x.setyLoc(this.yLoc);
